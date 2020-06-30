@@ -1,8 +1,9 @@
 package com.sunnyweather.android.db;
 
-import org.litepal.crud.DataSupport;
 
-public class Province extends DataSupport {
+import org.litepal.crud.LitePalSupport;
+
+public class Province extends LitePalSupport {
 
     private int id;
 
